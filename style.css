@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+body{
+    background: #efeffe
+}
+.container{
+    max-width: 1200px;
+    margin: 30px auto;
+}
+.container h1{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background: #ababab;
+    border: 2px solid #dedede;
+    border-radius: 15px;
+    color: #4b183d
+}
+.container .timezone{
+    width: 100%;
+    border: 5px solid rgba(212, 207, 207, 0.555);
+    border-radius: 10px;
+    margin: 40px auto;
+}
+.container .timezone tr{
+    background: #eceaea;
+}
+.container .timezone td{
+    border-bottom: 3px dashed #dad3d3;
+    
+}
+.container .timezone h3{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 32px;
+}
+.container .timezone p{
+    font-style: italic;
+    padding-bottom: 20px;
+}
+.container .timezone .time{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
