@@ -73,9 +73,9 @@ let option = {
     day: "2-digit",
     month: "short",
     year: "numeric",
-    hour12: true,
+    hour12: false,
     hour: "numeric",
-    minute:"2-digit"
+    minute:"2-digit",
 };
 
 // ----- DOM -------
@@ -114,10 +114,17 @@ const clockMaker = ()=>{
     }
 }
 
+choice2.addEventListener("click",()=>{
+    option.hour12 = false;
+})
+choice1.addEventListener("click",()=>{
+    option.hour12 = true;
+})
+
 clockMaker();
 setInterval(() => {
     clockMaker();
-}, 20000);
+}, 1000);
 
 
 

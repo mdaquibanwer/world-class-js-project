@@ -7,11 +7,39 @@
 body{
     background: #efeffe
 }
+.btn{
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#choice1, #choice2 {
+    cursor: pointer;
+    display: inline-block;
+    width: 49%;
+    height: 50px;
+    border: 2px solid #cdcdcd;
+    background-color: #ababab;
+    color: #05023b;
+    border-radius: 10px;
+    font-weight: 900;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+#choice1:hover, #choice2:hover{
+    background-color: #797878;
+    color: #06024d;
+    transition: all 0.5s ease;
+}
+
 .container{
     max-width: 1200px;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 .container h1{
+    margin-top: 30px;
     text-align: center;
     width: 100%;
     padding: 20px;
@@ -53,6 +81,10 @@ body{
 
 
 @media (min-width:351px) and (max-width:500px) {
+    #choice1, #choice2{
+        font-size: 18px;
+        padding: 5px;
+    }
     .container h1{
         text-align: center;
         width: 100%;
@@ -77,6 +109,10 @@ body{
     }
 }
 @media (max-width:350px) {
+    #choice1, #choice2{
+        font-size: 12px;
+        padding: 5px;
+    }
     .container h1{
         width: 100%;
     }
