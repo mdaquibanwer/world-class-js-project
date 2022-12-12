@@ -73,7 +73,7 @@ let option = {
     day: "2-digit",
     month: "short",
     year: "numeric",
-    hour12: false,
+    hour12: true,
     hour: "numeric",
     minute:"2-digit"
 };
