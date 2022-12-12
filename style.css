@@ -47,3 +47,47 @@ body{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
+
+
+/* -----------  media Queries  ------------*/
+
+
+@media (min-width:351px) and (max-width:500px) {
+    .container h1{
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+        background: #ababab;
+        border: 2px solid #dedede;
+        border-radius: 15px;
+        color: #4b183d
+    }
+    .container .timezone{
+        width: 90%;
+        border: 5px solid rgba(212, 207, 207, 0.555);
+        border-radius: 10px;
+        margin: 40px auto;
+    }
+    .container .timezone h3{
+        font-size: 24px;
+    }
+    .container .timezone .time{
+        font-size: 24px;
+        
+    }
+}
+@media (max-width:350px) {
+    .container h1{
+        width: 100%;
+    }
+    .container .timezone{
+        width: 90%;
+    }
+    .container .timezone h3{
+        font-size: 16px;
+    }
+    .container .timezone .time{
+        font-size: 20px;
+        
+    }
+}
